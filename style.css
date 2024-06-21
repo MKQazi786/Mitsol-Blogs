@@ -1,0 +1,91 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+body > .navbar > ul{
+    display: flex;
+    gap: 1rem;
+    list-style:none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar li {
+    border: 1px solid  #000000;
+    border-radius: 2rem;
+    /* gap: 8px; */
+    padding: 0.3rem 1rem;
+}
+
+.navbar span {
+    font-size: large;
+}
+
+.navbar li:hover{
+    background-color:#FC4A1A;
+    border-radius: 1.5rem;
+    color: white;
+    border: 1px solid #FC4A1A;
+}
+
+.blogs{
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    width: 1220px;
+}
+
+.blogs .blogImg {
+    border-radius: 1rem 0rem 0rem 1rem;
+    width: 500px !important;
+    height: 320px !important;
+}
+
+.blogs .content {
+    border-width:  1px 1px 1px 0px !important;
+    border:1px solid grey;
+    padding:0.8rem 1rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+    width: 700px;
+}
+
+.content b {
+    font-weight: 200;
+}
+
+.btnSec{
+    text-transform: none;
+}
+
+.btnSec button {
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 0.7rem 3.5rem;
+    font-size: larger;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+.btnSec img {
+    width: 0.7rem;
+    margin-left: -0.4rem;
+}
+
+.btnSec a {
+    font-size: larger;
+    color: #000000;
+    margin: 1rem;
+}
