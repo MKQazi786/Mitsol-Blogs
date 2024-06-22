@@ -50,14 +50,15 @@ body > .container > .navbar > ul{
 }
 
 .blogs .blogImg {
-    border-radius: 1rem 0rem 0rem 1rem;
-    width: 50%;
+    border-radius: 1.5rem 0rem 0rem 1.5rem;
+    /* width: 50%; */
+    padding: 0%;
 }
 
 .blogs .content {
     border-width:  1px 1px 1px 0px !important;
     border:1px solid grey;
-    padding:0.8rem 1rem;
+    padding:2.3rem 1rem;
     border-radius: 0rem 1rem 1rem 0rem;
     padding-top: 1.5rem;
 }
@@ -96,6 +97,26 @@ body > .container > .navbar > ul{
     margin: 1rem;
 }
 
+@media only screen and (max-width:767px){
+    #blogsProfile{
+        width:95% !important;
+    }
+    .blogs .content {
+        border-width:  0px 1px 1px 1px !important;
+        border:1px solid grey;
+        padding:0.8rem 1rem;
+        border-radius: 0rem 0rem 1rem 1rem;
+        margin-top:-10px;
+        margin-right:-11px;
+    }
+
+    
+.blogs .blogImg {
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+}
+
+
  @media only screen and (min-width:575px) and (max-width:1400px) {
     #blogsProfile{
         display: flex;
@@ -109,4 +130,5 @@ body > .container > .navbar > ul{
         color: #000000;
         margin-left: 0.5rem;
     }
+
 }
