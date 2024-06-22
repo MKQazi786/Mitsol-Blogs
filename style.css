@@ -95,6 +95,9 @@ body > .container > .navbar > ul{
 
 .btnSec{
     text-transform: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .btnSec button {
@@ -108,7 +111,6 @@ body > .container > .navbar > ul{
 
 .btnSec img {
     width: 0.7rem;
-    margin-left: -0.4rem;
 }
 
 .btnSec a {
@@ -125,5 +127,9 @@ body > .container > .navbar > ul{
         align-items: center;
         width:100%;
     }
-
+    .btnSec a {
+        font-size: larger;
+        color: #000000;
+        margin-left: 0.5rem;
+    }
 }

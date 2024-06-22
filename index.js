@@ -28,9 +28,9 @@ BlogsProfieContent.map(blog => {
             <p>Industry:  <b> Events and Tourism </b></p>
             <p>Skills: <b>  Figma, PHP, Angular, TypeScript, RXJS, MYSQL, Firebase, Postman </b></p>
 
-            <div class="btnSec" >
+            <div class="btnSec conatiner">
                 <button>Read More</button>
-                <a href="">Live view</a><img src="arrow_outward.png" alt="">
+                <a href="">Live view <img src="arrow_outward.png" alt=""></a>
             </div>
         </div>
     </div>
