@@ -2,17 +2,17 @@ const BlogsProfieContent = [
     {
         id: 1,
         imageSrc:"Rectangle 2.png",
-        title: "Picture-Perfect: Choosing the Right Dimensions for Professional Headshots"
+        title: "Pet Golu: E-commerce Platform For pet Care Essentials"
     },
     {
         id: 2,
         imageSrc: "Rectangle 2.png",
-        title: "Making the Most of Your Headshot Session: Preparation, Tips and Tricks"
+        title: "Pet Golu: E-commerce Platform For pet Care Essentials"
     },
     {
         id: 3,
         imageSrc: "Rectangle 2.png",
-        title: "Professional Medical Headshots for Doctor"
+        title: "Pet Golu: E-commerce Platform For pet Care Essentials"
     },
 ]
 
@@ -20,7 +20,7 @@ const blogs = document.getElementById('blogsProfile');
 
 BlogsProfieContent.map(blog => {
     const profileHTML = `
-    <div class="blogs" id="${blog.id}" >
+    <div class="container blogs" id="${blog.id}" >
         <img class="blogImg" src="${blog.imageSrc}" alt="">
         <div class="content" >
             <h1>${blog.title}</h1>

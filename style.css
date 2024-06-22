@@ -3,18 +3,29 @@
     font-weight: 600;
 }
 
-body{
+
+.container{
+    width: 1235px;
+}
+
+#blogsProfile{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 1225px;
+    
+}
+
+#blogsProfile h1 {
+    margin: 0rem;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
-body > .navbar > ul{
+body > .container > .navbar > ul{
     display: flex;
     gap: 1rem;
     list-style:none;
@@ -22,11 +33,21 @@ body > .navbar > ul{
     justify-content: flex-end;
 }
 
+.navbar{
+    /* width: 1220px; */
+    /* width: fit-content; */
+    align-self: end;
+    /* margin:0rem 17.5%; */
+    place-content: flex-end !important;
+
+}
+
 .navbar li {
     border: 1px solid  #000000;
     border-radius: 2rem;
     /* gap: 8px; */
     padding: 0.3rem 1rem;
+    color: #000000;
 }
 
 .navbar span {
@@ -41,7 +62,7 @@ body > .navbar > ul{
 }
 
 .blogs{
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
     display: flex;
     justify-content: center;
     text-transform: capitalize;
@@ -50,8 +71,9 @@ body > .navbar > ul{
 
 .blogs .blogImg {
     border-radius: 1rem 0rem 0rem 1rem;
-    width: 500px !important;
-    height: 320px !important;
+    /* width: 500px !important;
+    height: 290px !important; */
+    width: 50%;
 }
 
 .blogs .content {
@@ -60,10 +82,15 @@ body > .navbar > ul{
     padding:0.8rem 1rem;
     border-radius: 0rem 1rem 1rem 0rem;
     width: 700px;
+    padding-top: 1.5rem;
 }
 
 .content b {
     font-weight: 200;
+}
+
+.content p {
+    margin-top: 0rem;
 }
 
 .btnSec{
@@ -88,4 +115,15 @@ body > .navbar > ul{
     font-size: larger;
     color: #000000;
     margin: 1rem;
+}
+
+ @media only screen and (min-width:575px) and (max-width:1400px) {
+    #blogsProfile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+
 }
